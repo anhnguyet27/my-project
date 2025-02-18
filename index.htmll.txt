@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ẩm Thực Đắk Nông</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+        }
+        header {
+            background: url('https://th.bing.com/th/id/R.3f33d7a757a065a555ef9bf7f0f0ba42?rik=awgYk%2bZ9muhQcg&pid=ImgRaw&r=0') no-repeat center/cover;
+            color: white;
+            padding: 80px;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0288d1;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            background-color: #01579b;
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 30px;
+            width: 80%;
+            transition: all 0.3s ease;
+        }
+        .section:hover {
+            transform: translateY(-10px); 
+        }
+        
+        .food-item {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .food-item img {
+            width: 80%;
+            max-width: 500px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #0288d1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+      footer a {
+            color:black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+     #thank-you {
+    background-color: #fff7e6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #444;
+    width: 80%; 
+    max-width: 600px; 
+}
+
+#thank-you h2 {
+    color: #f39c12;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+       
+       
+    </style>
+</head>
+<body>
+    <header>Khám Phá Ẩm Thực Đắk Nông</header>
+    <nav>
+        <a href="#trangchu">Trang Chủ</a>
+        <a href="#gioithieu">Giới Thiệu</a>
+        <a href="#amthuc">Ẩm Thực</a>
+        <a href="#lienhe">Liên Hệ</a>
+    </nav>
+    <div class="container">
+        <div id="trangchu" class="section">
+           
+            <h2>Chào mừng bạn đến với trang web khám phá ẩm thực Đắk Nông!</h2>
+            <p >Tại đây, bạn sẽ tìm thấy những món ăn đặc trưng và hấp dẫn của vùng đất này.</p>
+
+<p >Khi nhắc đến Đắk Nông, người ta thường nghĩ ngay đến những cao nguyên hùng vĩ, những rừng cà phê bạt ngàn và những con thác hùng vĩ. Nhưng bên cạnh vẻ đẹp thiên nhiên hoang sơ, Đắk Nông còn níu chân du khách bởi nền ẩm thực độc đáo, mang đậm hương vị núi rừng Tây Nguyên. </p> 
+<img src="https://th.bing.com/th/id/OIP.JfbHfiaQhuRNy6B4pBozowHaFj?pid=ImgDet&w=474&h=355&rs=1">
+
+<p>Từ những món ăn truyền thống của đồng bào Ê Đê, M’nông đến những đặc sản dân dã của người Kinh, ẩm thực Đắk Nông là sự giao thoa giữa thiên nhiên và văn hóa, giữa hiện đại và truyền thống. Những món ăn như cơm lam, gà nướng, rượu cần, canh thụt hay cá suối nướng không chỉ thơm ngon mà còn chứa đựng tinh hoa của núi rừng.  
+
+Hãy cùng khám phá ẩm thực Đắk Nông để cảm nhận được hương vị đậm đà của đại ngàn và nét đẹp văn hóa của vùng đất cao nguyên này!</p>
+        </div>
+        <div id="gioithieu" class="section">
+            <h2>Giới Thiệu</h2>
+            <p >Ẩm thực Đắk Nông không chỉ đơn giản là những món ăn ngon mà còn chứa đựng hương vị đặc trưng của vùng đất Tây Nguyên, nơi có sự kết hợp hoàn hảo giữa thiên nhiên tươi đẹp và nét văn hóa đa dạng của các dân tộc. Đắk Nông, với những món ăn độc đáo, đã thu hút không ít du khách từ khắp nơi đến thưởng thức và khám phá. Từ các món ăn đơn giản nhưng đầy đậm đà hương vị, đến những món ăn mang tính truyền thống gắn liền với đời sống sinh hoạt của người dân nơi đây, mỗi món ăn đều mang một câu chuyện, một phong cách đặc biệt riêng. </p >
+            <img src="https://tse2.mm.bing.net/th?id=OIP.nxe1jh3TamtI28Y6ab5k9QHaEK&w=266&h=266&c=7">
+
+ <p >- Rượu cần, một loại thức uống truyền thống, được thưởng thức trong những dịp lễ hội hoặc tụ họp gia đình, mang đậm phong cách của các dân tộc Tây Nguyên.<br>
+
+-Và không thể không nhắc đến những món ăn như bánh cuốn Tây hay bánh "pẻng tải", những món bánh đặc trưng của người dân nơi đây, không chỉ ngon mà còn chứa đựng trong đó những giá trị văn hóa sâu sắc.</p>
+
+<p style="color: red">Ẩm thực Đắk Nông không chỉ làm say lòng du khách mà còn khiến họ cảm nhận được tình yêu và sự mộc mạc của con người Tây Nguyên. Mỗi món ăn, mỗi hương vị là một phần không thể thiếu trong hành trình khám phá vẻ đẹp tự nhiên và văn hóa của vùng đất này.</p>
+<p style="color: blue">Trang web này được thực hiện bởi <em>Nguyễn Thị Anh Thư & Trần Thị Ánh Nguyệt</em>, với mục đích giới thiệu nền ẩm thực phong phú của Đắk Nông đến với mọi người.</p>
+        </div>
+        <div id="amthuc" class="section">
+            <h2>Ẩm Thực</h2>
+            <p> <div class="container">
+        <div class="food-item">
+            <h2>Cá Lăng Sông Sêrêpốk</h2>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.vsMPBYqNL0tuLpAsDgXXNwHaI7&pid=Api" alt="Cá Lăng Sông Sêrêpốk">
+            <p>Một đặc sản nức tiếng của Đắk Nông, thường được chế biến thành lẩu hoặc nướng muối ớt.
+            Cá lăng thuộc họ cá da trơn, thường sống ở các khúc sông có nước chảy xiết và lắm thác ghềnh. Trong đó, có cá lăng đuôi đỏ thường sống ở sông Sêrêpốk, chảy qua địa bàn huyện Krông Nô và huyện Cư Jút, tỉnh Đăk Nông. Thịt cá lăng sông Sêrêpốk nổi tiếng béo, có vị ngọt và rất giàu dinh dưỡng và được dùng để chế biến thành nhiều món ngon như om, lẩu, nướng, làm chả, hấp, xào tỏi hoặc nấu cháo. Theo các thực khách sành ăn thì món cá lăng nướng và lẩu cá lăng măng chua rừng vẫn là ngon nhất.</p>
+        </div>
+        <div class="food-item">
+            <h2>Canh Thụt Đọt Mây</h2>
+            
+            <p>Món canh truyền thống của người M’nông, thơm ngon và bổ dưỡng.
+            Canh thụt là món đặc sản Đăk Nông độc lạ của người dân tộc M’Nông và người Mạ ở tỉnh Đăk Nông. Nguyên liệu để tạo nên món ăn này bao gồm lá bép (còn gọi là lá nhíp), đọt mây, cà đắng với các loại cá suối để cho ra món canh dân dã mà vô cùng hấp dẫn. Cái tên “canh thụt” xuất hiện từ việc ngày xưa, khi người dân đi làm, thường nấu canh trong những ống tre, ống nứa mọc trong rừng. Khi nấu, người ta dùng đũa để khuấy các nguyên liệu cho mềm.</p>
+            <img src="https://tse2.mm.bing.net/th?id=OIP.9SOdLGEPX5fIAhRgI2lPFAHaGF&pid=Api" alt="Canh Thụt Đọt Mây">
+           <p> Trước khi nấu, người dân địa phương sẽ chặt một ống lồ ô có lóng dài, gọt đẽo phần đầu ống cho khéo, sao cho nấu canh thụt nước không bị chảy ra ngoài. Việc chọn ống lồ ô là một bí quyết, nếu chọn cây già quá thì sẽ bị nứt, hoặc cây non thì canh sẽ không ngon… Thời gian để canh chín là khoảng từ 60 – 90 phút. Sau khi canh chín, cho ra bát hoặc lá chuối đều được vì món canh thụt khi chín sẽ đặc lại và rất dẻo. Khi thưởng thức món canh này, bạn sẽ cảm nhận được vị đắng, cay, bùi, béo… Ngày nay, canh thụt còn được kết hợp thêm với các nguyên liệu khác như: lòng non, sườn heo, cá hộp… tạo thành món ăn vô cùng hấp dẫn.</p>
+        </div>
+        <div class="food-item">
+            <h2>Rượu Cần</h2>
+            <img src="https://tse3.mm.bing.net/th?id=OIP.iSngRtE16Eg8Dj_NlC04LAHaE8&pid=Api" alt="Rượu Cần">
+            <p>Thức uống truyền thống được ủ từ gạo nếp và men lá, rất phổ biến trong các lễ hội.
+            Rượu cần là một trong những loại ẩm thực không thể thiếu trong các cuộc vui chơi, lễ hội của đồng bào ở tỉnh Đăk Nông. Rượu được ủ trong những chiếc ché không qua chưng cất; nguyên liệu ủ rượu bao gồm những nguyên liệu tự nhiên có tại địa phương như: lúa, trấu cùng với loại men được làm từ lá, vỏ cây rừng
+            Trong văn hóa của các dân tộc ở tỉnh Đăk Nông, rượu cần vừa là sản vật, vừa là lễ vật để dâng lên cho thần linh, trời đất vào mỗi dịp lễ hội. Vì thế, rượu cần không được sử dụng hằng ngày, mà chỉ dùng khi đón khách quý hay trong lễ hội, các dịp trọng đại của bon, làng. Khi uống rượu, người ta thường dùng một chiếc cần duy nhất được làm từ cành trúc uốn cong, mọi người chuyền tay nhau cùng uống, điều này thể hiện tình đoàn kết, chia sẻ của cả cộng đồng.</p>
+        </div>
+       
+        <div class="food-item">
+            <h2>Bánh cuốn Tày</h2>
+           <p> Bánh cuốn Tây là một món ăn đặc sản của vùng Tây Nguyên, đặc biệt phổ biến ở các tỉnh như Đắk Nông, Đắk Lắk. Món bánh cuốn này có sự kết hợp giữa lớp bánh mỏng mềm mại với nhân thịt xào, rau thơm, và nước mắm chua ngọt, tạo nên một món ăn thơm ngon và hấp dẫn. Đây là món ăn dễ ăn, dễ làm và được nhiều người yêu thích. </p>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.N4CfsoaKL3X1dCKaDtHTzgHaJ4&w=474&h=474&c=7">
+            <p>
+Tại Đăk Nông, đồng bào Tày sinh sống hầu hết ở các huyện, thị xã, nhưng nhiều nhất là ở các huyện Cư Jút và Krông Nô. Đồng bào Tày có nhiều món ăn ngon, nhưng phổ biến nhất là món bánh cuốn. Bánh cuốn được làm từ những nguyên liệu chính là gạo tẻ và thịt heo. Người dân chọn loại gạo tẻ ngon, dẻo ngâm nước sau đó vớt ra để cho ráo nước rồi cho vào cối đá xay thành bột mịn. Để tạo thành bánh, người làm hòa bột với một lượng nước vừa phải sao cho khi tráng phải kết dính, bánh không quá mỏng hay dày.</p>
+        </div>
+          <div class="food-item">
+            <h2>Bánh “pẻng tải”</h2>
+           <p>Theo chuyện kể dân gian của người Nùng, thời vua Lý Thái Tông (thế kỷ X), đồng bào Nùng, Tày ở vùng cao Cao Bằng đã làm bánh “tải” cho các chiến binh đem theo làm lương thực ra vùng biên ải đánh giặc ngoại xâm. Vì bánh xâu thành từng cặp để đeo trên người cho thuận tiện hành quân nên được gọi là “pẻng tải” (bánh mang theo). 
+           Bánh "pẻng tải" là món bánh truyền thống của người Tày và Nùng ở Đắk Nông, thường được làm trong dịp lễ hội hoặc cúng gia tiên. Bánh có màu đen đặc trưng, được làm từ bột nếp, lá gai và đường phên, tạo nên hương vị ngọt ngào mà không ngấy. </p>
+            <img src="https://tse3.mm.bing.net/th?id=OIP.17FV4s7YSIVtYhcQnBTOGwHaEW&w=278&h=278&c=7">
+            <p>
+Pẻng tải là một loại bánh quen thuộc trong đời sống của người Nùng. Trên mảnh đất Đăk Nông, bánh pẻng tải truyền thống mà người Nùng thường làm trong các ngày lễ cúng có 2 loại, chia theo cách làm bột bánh là nếp chuối đường và nếp lá gai đường. Và nhân bánh của 2 loại bánh này đều làm bằng mè rang giã nát trộn đường bát; ngoài ra người dân còn làm nhân bánh từ đậu xanh, đậu phộng, đậu đỏ, đậu đen… Các loại “pẻng tải” đều được gói bằng lá chuối phơi khô. Khi ăn, bạn sẽ cảm nhận bánh có vị ngọt thanh của đường, sự dẻo thơm của nếp và ngọt bùi của nhân đậu.</p>
+        </div>
+    </div>
+        </div>
+        <div id="lienhe" class="section">
+            <h2>Liên Hệ</h2>
+            <p>Nguyễn Thị Anh Thư & Trần Thị Ánh Nguyệt</p>
+            <p>Email: ntat4225@gmail.com hay anhhnguyett2727@gmail.com </p>
+            <p>Điện thoại: 0347412459 hay 0852324748
+          </p>
+        </div>
+    </div>
+    <div id="thank-you" class="section">
+    <h2>Cảm ơn bạn đã ghé thăm!</h2>
+    <p>Chúng tôi rất vui mừng khi bạn đã dành thời gian khám phá ẩm thực Đắk Nông. Hy vọng rằng những món ăn đặc sắc và câu chuyện về văn hóa của vùng đất này sẽ để lại cho bạn những ấn tượng khó quên.</p>
+    <p>Đừng quên quay lại để tiếp tục hành trình khám phá ẩm thực Đắk Nông với chúng tôi trong những lần sau!</p>
+    <p>Chúc bạn một chuyến đi tuyệt vời và một trải nghiệm ẩm thực đầy thú vị!</p>
+</div>
+
+    <footer>
+        &copy; 2025 Ẩm Thực Đắk Nông |Khám Phá Ẩm Thực Đắk Nông - Kết Nối Yêu Thương| Thiết kế bởi Nguyễn Thị Anh Thư & Trần Thị Ánh Nguyệt
+    </footer>
+</body>
+</html>
+
+
